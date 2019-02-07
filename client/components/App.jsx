@@ -1,7 +1,12 @@
 import React from "react";
+import Home from "./Home";
 
 const App = () => {
-  return <h1>React development has begun!</h1>;
+  return (
+    <React.Fragment>
+      <Home />
+    </React.Fragment>
+  );
 };
 
 export default App;
