@@ -1,0 +1,10 @@
+$background-color: #000000;
+$font-color: #20c20e;
+$font-basic: "IBM Plex Mono", monospace;
+$font-hacker: "Press Start 2P", cursive;
+
+body {
+  background: $background-color;
+  color: $font-color;
+  font-family: $font-hacker;
+}

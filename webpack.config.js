@@ -12,11 +12,20 @@ module.exports = {
       {
         test: /\.jsx?$/,
         loader: "babel-loader",
-        exclude: /node_modules/,
+        exclude: /node_modules/
+      },
+      {
+        test: /\.s(a|c)ss$/,
         use: [
-          "style-loader", // creates style nodes from JS strings
-          "css-loader", // translates CSS into CommonJS
-          "sass-loader" // compiles Sass to CSS, using Node Sass by default
+          {
+            loader: "style-loader"
+          },
+          {
+            loader: "css-loader"
+          },
+          {
+            loader: "sass-loader"
+          }
         ]
       }
     ]

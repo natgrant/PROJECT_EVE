@@ -1,10 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const App = () => {
-  return (
-    <h1>React development has begun!</h1>
-  )
-}
+  return <h1>React development has begun!</h1>;
+};
 
-export default App
-
+export default App;
