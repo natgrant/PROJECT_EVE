@@ -14,7 +14,6 @@ class Home extends Component {
     return (
       <Fragment>
         <div className="container">
-          <h1>PROJECT EVE</h1>
           {this.state.button == true && (
             <Button name={this.state.button} buttonClick={this.click} />
           )}

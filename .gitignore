@@ -63,6 +63,7 @@ typings/
 .next
 
 package-lock.json
+yarn.lock
 
 bundle.js.map~master
 bundle.js.map
