@@ -1,3 +1,5 @@
+*bundle
+
 # Logs
 logs
 *.log
@@ -59,3 +61,10 @@ typings/
 
 # next.js build output
 .next
+
+package-lock.json
+
+bundle.js.map~master
+bundle.js.map
+bundle.js~master
+bundle.js
