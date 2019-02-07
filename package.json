@@ -6,6 +6,10 @@
   "main": "server/index.js",
   "author": "EDA",
   "license": "ISC",
+  "engines": {
+    "npm": "6.x",
+    "node": "10.x"
+  },
   "scripts": {
     "client": "webpack-dev-server --hot --inline",
     "dev": "node server & webpack --watch",
