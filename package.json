@@ -8,7 +8,7 @@
   "license": "ISC",
   "engines": {
     "npm": "6.x",
-    "node": "10.x"
+    "node": ">=6.11.5"
   },
   "scripts": {
     "client": "webpack-dev-server --hot --inline",
