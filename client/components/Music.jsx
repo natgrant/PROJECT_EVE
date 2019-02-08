@@ -18,7 +18,7 @@ class Music extends Component {
   render() {
     return (
       <div>
-        <button onClick={this.play} />
+        <button className="music-button" onClick={this.play} />
       </div>
     );
   }
