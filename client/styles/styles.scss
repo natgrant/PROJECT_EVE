@@ -22,11 +22,32 @@ h1 {
   background-color: $background-color;
   font-size: 2rem;
   padding: 1.5rem;
-  margin-top: 10%;
+  margin-top: 8%;
 }
 
 // Home Container Div:
 .container {
+  margin-top: 8%;
+  text-align: center;
+}
+
+.formContainer {
   margin-top: 15%;
   text-align: center;
+}
+
+input {
+  font-family: $font-hacker;
+  color: $hacker-red;
+  background-color: $background-color;
+  font-size: 2rem;
+  padding: 1.5rem;
+}
+
+.submitButton {
+  font-family: $font-hacker;
+  color: $hacker-red;
+  background-color: $background-color;
+  font-size: 2rem;
+  padding: 1.5rem;
 }
