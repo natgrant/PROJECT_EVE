@@ -39,7 +39,7 @@ export default class SubmitForm extends React.Component {
           </button>
         </form>
 
-        <ul>{this.state.breach.map(obj => obj.Domain)}</ul>
+        <ul>{this.state.breach.map((obj, i) => <li key={i}>{obj.Domain}: <p>{obj.DataClasses} </p></li>)}</ul>
       </div>
     );
   }
