@@ -1,10 +1,10 @@
 import React from 'react'
-import {shallow} from 'enzyme'
+import { shallow } from 'enzyme'
 
 import App from '../client/components/App'
 
 test('<App />', () => {
-  const expected = 'React development has begun!'
+  const expected = "PROJECT EVE<HashRouter />"
   const wrapper = shallow(<App />)
   expect(wrapper.text()).toBe(expected)
 })
