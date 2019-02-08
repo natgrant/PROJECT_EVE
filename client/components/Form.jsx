@@ -5,8 +5,7 @@ export default class SubmitForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      breach: [],
-      dataClasses: []
+      breach: []
     };
     this.handleChange = this.handleChange.bind(this);
     this.clickHandle = this.clickHandle.bind(this);
