@@ -5,7 +5,8 @@ export default class SubmitForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      breach: []
+      breach: [],
+      dataClasses: []
     };
     this.handleChange = this.handleChange.bind(this);
     this.clickHandle = this.clickHandle.bind(this);
@@ -39,7 +40,7 @@ export default class SubmitForm extends React.Component {
           </button>
         </form>
 
-        <ul>{this.state.breach.map(obj => obj.Domain)}</ul>
+        <ul>{this.state.breach.map((obj, i) => <li key={i}>{obj.Domain}: <p>{obj.DataClasses} </p></li>)}</ul>
       </div>
     );
   }
