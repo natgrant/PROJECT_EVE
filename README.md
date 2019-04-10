@@ -1,6 +1,6 @@
 # PROJECT_EVE
 Enter if you dare...
 
-
-## EDA Group Project 
-### Week 4
+* One day group project
+* Access external API
+* Shows user if email has been hacked
